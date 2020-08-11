@@ -13,11 +13,11 @@ class MailProvider {
 
   constructor() {
     this.client = nodemailer.createTransport({
-      host: 'smtp.mailtrap.io',
-      port: 2525,
+      host: mailConfig.host,
+      port: mailConfig.port,
       auth: {
-        user: 'a8a9a1c9439694',
-        pass: 'fbfb3695ed84b9',
+        user: mailConfig.auth.user,
+        pass: mailConfig.auth.pass,
       },
     });
   }
