@@ -33,7 +33,7 @@ $ cd sendmail-bullqueue
 $ yarn install or npm install
 
 # Start queue
-$ yarn:dev queue or npm run dev:queue
+$ yarn dev:queue or npm run dev:queue
 
 # Run start and enjoy
 $ yarn dev:server or npm run dev:server
